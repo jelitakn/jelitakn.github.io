@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  background-color: #F0F8FF;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #85D0E2;
+  padding: 10px 0;
+}
+header nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+header nav ul li, header nav ul a {
+  display: inline-block;
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+header nav ul li:hover, header nav ul a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+main h1, main h3 {
+  color: #85D0E2;
+  margin-bottom: 15px;
+}
+main section {
+  margin-bottom: 30px;
+}
+main section ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+main section p {
+  margin: 10px 0;
+}
+main section .info-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+main section .info-item span {
+  font-weight: bold;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.portfolio-list article {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.portfolio-list article img {
+  width: 100%;
+  height: auto;
+}
+.portfolio-list article h2 {
+  margin: 15px;
+  font-size: 1.5rem;
+}
+.portfolio-list article p {
+  margin: 0 15px 15px;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+form label {
+  font-weight: bold;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form input:focus, form textarea:focus {
+  border-color: #85D0E2;
+  outline: none;
+}
+form button {
+  background-color: #85D0E2;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: rgb(91.7947019868, 192.1258278146, 216.2052980132);
+}
+
+/*# sourceMappingURL=style.css.map */
